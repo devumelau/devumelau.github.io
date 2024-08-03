@@ -3,7 +3,7 @@
 let workTitle = document.getElementById('work');
 let breakTitle = document.getElementById('break');
 
-let workTime = 25;
+let workTime = 1;
 let breakTime = 5;
 
 let seconds = "00"
@@ -32,7 +32,7 @@ function start() {
 
 
     //change the time
-    seconds = 59;
+    seconds = 3;
     
     let workMinutes = workTime - 1;
     let breakMinutes = breakTime - 1;
